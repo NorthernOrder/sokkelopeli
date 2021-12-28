@@ -1,0 +1,32 @@
+name: Sokkelopeli
+version: @version@
+main: xyz.nrth.mc.sokkelopeli.Sokkelopeli
+api-version: 1.16
+authors: [ djozoku ]
+description: Sokkelopeli
+website: https://nrth.xyz
+commands:
+  start:
+    description: Start a sokkelopeli
+    usage: "/sokkelopeli:start <checkpoint_count>"
+    default: all
+  reset:
+    description: Reset sokkelopeli
+    usage: "/sokkelopeli:reset"
+    default: all
+  winner:
+    description: Sokkelopeli winner check
+    usage: "/sokkelopeli:winner"
+    default: all
+  checkpoint:
+    description: Sokkelopeli checkpoint
+    usage: "/sokkelopeli:checkpoint <checkpoint_number>"
+    default: all
+  join:
+    description: Join the next Sokkelopeli
+    usage: "/sokkelopeli:join"
+    default: all
+  leave:
+    description: Leave Sokkelopeli
+    usage: "/sokkelopeli:leave"
+    default: all
